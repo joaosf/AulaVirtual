@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.virtual.aula.aulavirtual.Professor.MainProfessor"
+    android:background="@drawable/principal_degrade">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            android:cropToPadding="false"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_principal_foreground" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCadLista"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Lista de Exercícios"
+                android:drawableTop="@drawable/ic_note_add_black_48dp"/>
+
+            <Button
+                android:id="@+id/btnConListas"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:drawableTop="@drawable/ic_list_black_48dp"
+                android:text="Minhas Listas" />
+
+            <Button
+                android:id="@+id/btnProfessorConResultados"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:drawableTop="@drawable/ic_book_black_48dp"
+                android:text="Respostas" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCadCategoria"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:drawableTop="@drawable/ic_library_add_black_48dp"
+                android:text="Nova Matéria" />
+
+            <Button
+                android:id="@+id/btnProfessorLogout"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:drawableTop="@drawable/ic_exit_to_app_black_48dp"
+                android:text="Sair" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

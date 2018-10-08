@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.virtual.aula.aulavirtual.Professor.CadastroExercicio">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Título do Exercício"
+            android:id="@+id/txtExercicioTitulo"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descrição do Exercício"
+            android:id="@+id/txtExercicioDescricao"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adicionar Alternativa"
+            android:id="@+id/btnExercicioAlternativa"
+            android:drawableLeft="@drawable/ic_add_circle_outline_black_24dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marque a(s) alternativa(s) correta(s):"
+            android:textAlignment="center"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/lnlExercicioAlternativas"
+                android:orientation="vertical"
+                android:scrollbars="vertical"/>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnSalvarExercicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="20dp"
+        android:clickable="true"
+        android:tint="@color/corFundoJanela"
+        app:srcCompat="@drawable/ic_save_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+</RelativeLayout>

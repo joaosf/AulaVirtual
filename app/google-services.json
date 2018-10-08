@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "704830864328",
+    "firebase_url": "https://aulavirtual-f5514.firebaseio.com",
+    "project_id": "aulavirtual-f5514",
+    "storage_bucket": "aulavirtual-f5514.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704830864328:android:45caac5c5c929a39",
+        "android_client_info": {
+          "package_name": "com.virtual.aula.aulavirtual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704830864328-m3edtq3j6i51p4rpjgccjb59ikv2u1gt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8LEHLTY-F4wfvm2zAKfkUou9r2HNC34g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

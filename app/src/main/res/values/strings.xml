@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Leassyn</string>
+    <string name="label_login">Login</string>
+    <string name="label_cad_usuario">Cadastro de Usuário</string>
+    <string name="label_cad_categoria">Cadastro de Categoria</string>
+    <string name="label_cad_lista">Cadastro de Lista de Exercícios</string>
+    <string name="label_cad_exercicio">Cadastro de Exercício</string>
+    <string name="label_main_professor">Leassyn Professor</string>
+    <string name="label_main_aluno">Leassyn Aluno</string>
+    <string name="label_consultar_exercicio">Consulta de Execícios</string>
+    <string name="label_consultar_resultados">Consulta de Resultados</string>
+
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.virtual.aula.aulavirtual.ListarResultados"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clique para exibir mais detalhes"
+        android:textAlignment="center"/>
+
+    <ExpandableListView
+        android:id="@+id/lstResultadosConsulta"
+        style="@android:style/Widget.DeviceDefault.ExpandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/black"
+        android:scrollbars="vertical" />
+
+</LinearLayout>
