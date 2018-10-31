@@ -70,6 +70,7 @@ public class ConsultarExercicio extends AppCompatActivity {
         lstConsultaExercicio.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                //Convertendo AppCompatTextView em String
                 String cat = ((AppCompatTextView) view).getText().toString();
                 popularListViewExercicios(cat);
             }
