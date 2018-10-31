@@ -83,6 +83,7 @@ public class CadastroUsuario extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 try {
+                    //Criação do objeto com parseOf
                     Usuario usuarioModel = Usuario.parseOf(dataSnapshot.child(txtUsuarioLogin.getText().toString()).getValue());
                     if (usuarioModel != null) {
                         txtUsuarioLogin.setError("Login já cadastrado, escolha outro!");
