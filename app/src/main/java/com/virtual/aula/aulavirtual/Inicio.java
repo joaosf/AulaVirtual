@@ -12,6 +12,7 @@ import org.androidannotations.annotations.Fullscreen;
 import org.androidannotations.annotations.ViewById;
 import org.androidannotations.annotations.WindowFeature;
 
+//Esta classe tem como objetivo unir os procedimentos de outras interfaces.
 @Fullscreen
 @WindowFeature(Window.FEATURE_NO_TITLE)
 @EActivity(R.layout.activity_inicio)
@@ -19,7 +20,7 @@ public class Inicio extends AppCompatActivity {
 
     @ViewById
     TextView txtHome;
-
+    
     @AfterViews
     protected void init() {
         Typeface typeface = Typeface.createFromAsset(getAssets(), "GreatVibesRegular.otf");
