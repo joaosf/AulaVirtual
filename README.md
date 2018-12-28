@@ -1,3 +1,3 @@
 # AulaVirtual
 
-![alt text](https://web.whatsapp.com/3d9c495f-0497-41db-a756-53225509c8b5)
+![alt text](https://i.imgur.com/S65lwSl.png)
